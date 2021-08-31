@@ -46,6 +46,10 @@ body {
     text-align: center;
   }
 
+ #submit-author {
+  margin: 10px auto;
+}
+
   #form-container {
     width: 60%;
     margin: auto;
@@ -77,8 +81,22 @@ body {
 
     .table {
       margin: 10px;
-      width: 80%;
+      width: 85%;
       margin: 0 auto;
+    }
+
+    #view {
+      width: 90%;
+      margin: auto;
+    
+      .details {
+        min-width: 50%;
+        max-width: 60%;
+      }
+    
+      .description {
+        white-space: pre-wrap;
+      }
     }
   }
 }
